@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
+import { Header, Footer } from "containers";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <header></header>
+    <>
+      <Header />
       <main></main>
-      <footer></footer>
-    </div>
+      <Footer />
+    </>
   );
 };
 
