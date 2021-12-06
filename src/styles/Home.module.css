@@ -1,0 +1,21 @@
+.section__quemSomos {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.imageRounded {
+  border-radius: 15px;
+}
+
+.section__quemSomos h3 {
+  font-size: 2rem;
+  color: #379d73;
+}
+
+.section__quemSomos p {
+  font-size: 1.25rem;
+  color: #777;
+  line-height: 1.3333;
+  margin-bottom: 2rem;
+}
