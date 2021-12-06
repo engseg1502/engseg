@@ -13,6 +13,7 @@ const Header = () => {
             width={125}
             height={100}
           />
+
           <div>
             <a href="#quemSomos">Quem Somos</a>
             <a href="#treinamentos">Treinamentos</a>
