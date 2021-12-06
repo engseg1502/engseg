@@ -1,4 +1,4 @@
-.section__quemSomos {
+.section {
   display: flex;
   gap: 3rem;
   justify-content: space-between;
@@ -8,11 +8,11 @@
   border-radius: 15px;
 }
 
-.section__quemSomos h3 {
+.title {
   font-size: 2rem;
 }
 
-.section__quemSomos p {
+.text {
   font-size: 1.25rem;
   color: var(--section-text);
   line-height: 1.3333;
