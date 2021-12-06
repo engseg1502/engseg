@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 
 import { Header, Footer } from "containers";
-import { AnimatedLink } from "components/AnimatedLink";
+import { AnimatedLink } from "components";
 
 import quemSomos from "../assets/images/quem_somos.jpeg";
 import styles from "../styles/Home.module.css";

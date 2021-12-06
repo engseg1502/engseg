@@ -1,1 +1,1 @@
-export { default as AnimatedLink } from "./AnimatedLink";
+export { default } from "./AnimatedLink";
