@@ -1,0 +1,19 @@
+.nav {
+  height: 150px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #68be80;
+}
+
+.nav a:not(:first-child) {
+  padding-left: 1.5rem;
+}
