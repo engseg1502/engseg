@@ -24,18 +24,14 @@ a {
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--primary);
+body {
+  padding-top: 150px;
 }
 
 .container {
   padding: 0 2rem;
   width: 100%;
+  height: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }

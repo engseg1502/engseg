@@ -3,17 +3,17 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className="container">
         <nav className={styles.nav}>
           <Image
             src="/images/eng_seg_logo.png"
             alt="logo"
             width={125}
-            height={100}
+            height={88}
           />
 
-          <div>
+          <div className={styles.menu}>
             <a href="#quemSomos">Quem Somos</a>
             <a href="#treinamentos">Treinamentos</a>
             <a href="#serviços">Serviços</a>
