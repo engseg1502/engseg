@@ -1,0 +1,25 @@
+.container {
+  height: 4rem;
+  background-color: #ff6300;
+  border-radius: 25px;
+  box-shadow: 0 5px #ac5b2a;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container a {
+  font-size: 1.3rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.container:hover {
+  box-shadow: 0 3px #ff6300;
+  transform: translateY(4px);
+}
