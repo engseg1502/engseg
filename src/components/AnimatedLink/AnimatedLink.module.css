@@ -1,8 +1,8 @@
 .container {
   height: 4rem;
-  background-color: #ff6300;
+  background-color: var(--secondary);
   border-radius: 25px;
-  box-shadow: 0 5px #ac5b2a;
+  box-shadow: 0 5px var(--secondary-dark);
   cursor: pointer;
   outline: none;
   border: none;
@@ -14,12 +14,12 @@
 
 .container a {
   font-size: 1.3rem;
-  color: #fff;
+  color: var(--light);
   text-transform: capitalize;
   font-weight: bold;
 }
 
 .container:hover {
-  box-shadow: 0 3px #ff6300;
+  box-shadow: 0 3px var(--secondary);
   transform: translateY(4px);
 }

@@ -10,12 +10,12 @@
 
 .section__quemSomos h3 {
   font-size: 2rem;
-  color: #379d73;
+  color: var(--primary);
 }
 
 .section__quemSomos p {
   font-size: 1.25rem;
-  color: #777;
+  color: var(--section-text);
   line-height: 1.3333;
   margin-bottom: 2rem;
 }

@@ -1,3 +1,12 @@
+:root {
+  --primary: #379d73;
+  --primary-light: #68be80;
+  --secondary: #ff6300;
+  --secondary-dark: #ac5b2a;
+  --light: #fff;
+  --section-text: #777;
+}
+
 html,
 body {
   padding: 0;
