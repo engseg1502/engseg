@@ -5,11 +5,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Header />
-
-      <main className="container">
-        <WhoWeAre />
-      </main>
-
+      <WhoWeAre />
       <Footer />
     </>
   );
