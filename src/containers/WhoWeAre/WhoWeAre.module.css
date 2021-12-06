@@ -4,6 +4,10 @@
   justify-content: space-between;
 }
 
+.section article {
+  flex: 1;
+}
+
 .imageRounded {
   border-radius: 15px;
 }
