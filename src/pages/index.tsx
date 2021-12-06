@@ -4,7 +4,6 @@ import Image from "next/image";
 import { Header, Footer } from "containers";
 import { AnimatedLink } from "components/AnimatedLink";
 
-import quemSomos from "../assets/images/quem_somos.jpeg";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -15,13 +14,12 @@ const Home: NextPage = () => {
         <div className="container">
           <section id="quemSomos" className={styles.section__quemSomos}>
             <Image
-              src={quemSomos}
+              src="/images/quem_somos.jpeg"
               alt="Quem somos"
               className={styles.imageRounded}
               width={250}
               height={480}
             />
-
             <article>
               <h3>Quem Somos ?</h3>
 

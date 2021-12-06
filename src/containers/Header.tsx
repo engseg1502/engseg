@@ -1,5 +1,4 @@
 import Image from "next/image";
-import logo from "../assets/images/eng_seg_logo.png";
 
 import styles from "./Header.module.css";
 
@@ -8,7 +7,12 @@ const Header = () => {
     <header>
       <div className="container">
         <nav className={styles.nav}>
-          <Image src={logo} alt="logo" width={125} height={100} />
+          <Image
+            src="/images/eng_seg_logo.png"
+            alt="logo"
+            width={125}
+            height={100}
+          />
           <div>
             <a href="#quemSomos">Quem Somos</a>
             <a href="#treinamentos">Treinamentos</a>
