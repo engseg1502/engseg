@@ -1,11 +1,25 @@
 import type { NextPage } from "next";
-import { Header, WhoWeAre, Footer } from "containers";
+import {
+  Header,
+  WhoWeAre,
+  Services,
+  Trainings,
+  Consultancy,
+  Customers,
+  Contact,
+  Footer,
+} from "containers";
 
 const Home: NextPage = () => {
   return (
     <>
       <Header />
       <WhoWeAre />
+      <Services />
+      <Trainings />
+      <Consultancy />
+      <Customers />
+      <Contact />
       <Footer />
     </>
   );
