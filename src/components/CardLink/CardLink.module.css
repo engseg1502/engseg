@@ -1,26 +1,23 @@
 .container {
   max-width: 220px;
-  max-height: 275px;
-  word-wrap: break-word;
+  min-height: 340px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 .title {
   display: block;
   color: var(--primary);
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   padding: 0 1.875rem;
-  margin-bottom: 1.25rem;
   text-align: center;
   line-height: 1.1;
+  margin-bottom: 1rem;
 }
 
 .card {
   position: relative;
-  margin-bottom: 1rem;
 }
 
 .card:hover .image {
