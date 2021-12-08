@@ -1,1 +1,47 @@
-.services {}
+.title {
+  display: block;
+  font-size: 2rem;
+  color: var(--primary);
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.25rem;
+  color: var(--section-text);
+  line-height: 1.3333;
+  text-align: center;
+}
+
+.content {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contentSpecial {
+  max-width: 470px;
+}
+
+.articleTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--article-title);
+}
+
+.listText li {
+  font-size: 1.375rem;
+  color: var(--section-text);
+  line-height: 1.6;
+}
+
+.textContent {
+  font-size: 1.375rem;
+  color: var(--section-text);
+  line-height: 1.6;
+}
+
+.imageRounded {
+  border-radius: 15px;
+}
