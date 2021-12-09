@@ -5,9 +5,10 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.copyright}>
-          <p
-            className={styles.text}
-          >{`© ${new Date().getFullYear()} Eng.Seg | Assessoria e Treinamentos - Todos os Direitos Reservados`}</p>
+          <p className={styles.text}>
+            {`© ${new Date().getFullYear()} `}Eng.Seg | Assessoria e
+            Treinamentos <i>-</i> <span>Todos os Direitos Reservados</span>
+          </p>
         </div>
       </div>
     </footer>

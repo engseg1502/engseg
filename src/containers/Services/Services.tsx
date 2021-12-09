@@ -4,7 +4,7 @@ import styles from "./Services.module.css";
 
 const Services = () => {
   return (
-    <section id="serviços" className={styles.servicos}>
+    <section id="serviços" className={styles.services}>
       <div className="container">
         <span className={styles.title}>Serviços</span>
 
@@ -28,7 +28,9 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className={styles.articleContainer}>
+          <div
+            className={`${styles.articleContainer} ${styles.articleContainerMedia}`}
+          >
             <Image
               src={"/images/spda.jpg"}
               width={550}
@@ -40,7 +42,9 @@ const Services = () => {
         </article>
 
         <article className={styles.article}>
-          <div className={styles.articleContainer}>
+          <div
+            className={`${styles.articleContainer} ${styles.articleContainerMedia}`}
+          >
             <Image
               src={"/images/intalacao-de-placas-solares.jpg"}
               width={550}
@@ -82,7 +86,9 @@ const Services = () => {
             </p>
           </div>
 
-          <div className={styles.articleContainer}>
+          <div
+            className={`${styles.articleContainer} ${styles.articleContainerMedia}`}
+          >
             <Image
               src={"/images/bombeiros.jpg"}
               width={550}
@@ -94,7 +100,9 @@ const Services = () => {
         </article>
 
         <article className={styles.article}>
-          <div className={styles.articleContainer}>
+          <div
+            className={`${styles.articleContainer} ${styles.articleContainerMedia}`}
+          >
             <video
               controls={true}
               autoPlay={false}

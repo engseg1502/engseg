@@ -7,13 +7,15 @@ const WhoWeAre = () => {
     <section id="quemSomos" className={styles.woweare}>
       <div className="container">
         <div className={styles.section}>
-          <Image
-            src="/images/quem_somos.jpg"
-            alt="Quem somos"
-            className={styles.imageRounded}
-            width={300}
-            height={480}
-          />
+          <div className={styles.imageContainer}>
+            <Image
+              src="/images/quem_somos.jpg"
+              alt="Quem somos"
+              className={styles.imageRounded}
+              width={300}
+              height={480}
+            />
+          </div>
 
           <article>
             <span className={styles.title}>Quem Somos ?</span>
@@ -38,7 +40,10 @@ const WhoWeAre = () => {
               assuntos ministrados.
             </p>
 
-            <AnimatedLink title="Fale conosco pelo Whatsapp" to="test" />
+            <AnimatedLink
+              title="Fale conosco pelo Whatsapp"
+              to="test"
+            />
           </article>
         </div>
       </div>

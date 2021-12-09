@@ -23,3 +23,9 @@
   box-shadow: 0 3px var(--secondary);
   transform: translateY(4px);
 }
+
+@media (max-width: 992px) {
+  .container {
+    display: none;
+  }
+}

@@ -7,3 +7,22 @@
 .text {
   color: white;
 }
+
+@media (max-width: 992px) {
+  .footer {
+    padding: 0.25rem 0;
+  }
+
+  .text {
+    line-height: 1.7;
+    font-size: 0.9rem;
+  }
+
+  .text i {
+    display: none;
+  }
+
+  .text span {
+    display: block;
+  }
+}
