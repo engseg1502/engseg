@@ -4,17 +4,17 @@ import styles from "./Services.module.css";
 
 const Services = () => {
   return (
-    <section id="serviços">
+    <section id="serviços" className={styles.servicos}>
       <div className="container">
         <span className={styles.title}>Serviços</span>
 
-        <p className={styles.text}>
+        <p className={styles.subtitle}>
           Abaixo você confere os serviços que a Eng.Seg. pode oferecer para sua
           empresa.
         </p>
 
-        <article className={styles.content}>
-          <div>
+        <article className={styles.article}>
+          <div className={styles.articleContainer}>
             <span className={styles.articleTitle}>
               SPDA - Sistema de proteção contra descargas atmosféricas
             </span>
@@ -28,29 +28,29 @@ const Services = () => {
             </ul>
           </div>
 
-          <div>
+          <div className={styles.articleContainer}>
             <Image
-              src={"/images/spda.jpeg"}
-              width={275}
-              height={275}
+              src={"/images/spda.jpg"}
+              width={550}
+              height={364}
               alt="spda"
               className={styles.imageRounded}
             />
           </div>
         </article>
 
-        <article className={styles.content}>
-          <div>
+        <article className={styles.article}>
+          <div className={styles.articleContainer}>
             <Image
-              src={"/images/painel.png"}
-              width={275}
-              height={275}
+              src={"/images/intalacao-de-placas-solares.jpg"}
+              width={550}
+              height={310}
               alt="painel"
               className={styles.imageRounded}
             />
           </div>
 
-          <div>
+          <div className={styles.articleContainer}>
             <span className={styles.articleTitle}>
               Instalação de placas solares
             </span>
@@ -64,8 +64,8 @@ const Services = () => {
           </div>
         </article>
 
-        <article className={styles.content}>
-          <div className={styles.contentSpecial}>
+        <article className={styles.article}>
+          <div className={styles.articleContainer}>
             <span className={styles.articleTitle}>
               Equipe de bombeiros para empresas e eventos
             </span>
@@ -82,29 +82,31 @@ const Services = () => {
             </p>
           </div>
 
-          <div>
+          <div className={styles.articleContainer}>
             <Image
-              src={"/images/bomb.png"}
-              width={275}
-              height={275}
+              src={"/images/bombeiros.jpg"}
+              width={550}
+              height={365}
               alt="bombeiros"
               className={styles.imageRounded}
             />
           </div>
         </article>
 
-        <article className={styles.content}>
-          <div>
-            {/* <Image
-              src={"/images/bomb.png"}
-              width={275}
-              height={275}
-              alt="bombeiros"
-              className={styles.imageRounded}
-            /> */}
+        <article className={styles.article}>
+          <div className={styles.articleContainer}>
+            <video
+              controls={true}
+              autoPlay={false}
+              loop={false}
+              className={`${styles.video} ${styles.imageRounded}`}
+            >
+              <source src="/videos/servicos.mp4" />
+              Infelizmente seu navegador não suporta este video.
+            </video>
           </div>
 
-          <div className={styles.contentSpecial}>
+          <div className={styles.articleContainer}>
             <span className={styles.articleTitle}>
               Venda e instalação de poste dobrável
             </span>

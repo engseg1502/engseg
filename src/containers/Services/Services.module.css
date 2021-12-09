@@ -1,28 +1,34 @@
+.servicos {
+  background-color: #fbfbfb;
+  width: 100%;
+  padding: 4rem 0;
+}
+
 .title {
   display: block;
   font-size: 2.2rem;
   color: var(--primary);
   font-weight: bold;
   text-align: center;
+  line-height: 1;
 }
 
-.text {
+.subtitle {
   font-size: 1.25rem;
   color: var(--section-text);
-  line-height: 1.3333;
+  line-height: 1;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 }
 
-.content {
-  padding: 2rem 0;
+.article {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 1.5rem 0;
 }
 
-.contentSpecial {
-  max-width: 470px;
+.articleContainer {
+  width: 50%;
 }
 
 .articleTitle {
@@ -43,4 +49,8 @@ ul.articleText {
 
 .imageRounded {
   border-radius: 15px;
+}
+
+.video {
+  width: 100%;
 }

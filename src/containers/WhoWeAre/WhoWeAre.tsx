@@ -11,7 +11,7 @@ const WhoWeAre = () => {
             src="/images/quem_somos.jpeg"
             alt="Quem somos"
             className={styles.imageRounded}
-            width={250}
+            width={300}
             height={480}
           />
 
