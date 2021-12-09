@@ -125,7 +125,7 @@ const Services = () => {
               elevatórias, escadas, profissionais qualificados para trabalhar em
               altura e reduz radicalmente os riscos com acidentes. O custo de
               manutenção mensal em postes tradicionais pode equivaler a
-              instalação de até 7 novos postes dobráveis. Solicite um orçamento.
+              instalação de até 7 novos postes dobráveis.
             </p>
           </div>
         </article>
