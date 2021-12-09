@@ -52,6 +52,10 @@
     display: block;
   }
 
+  .text {
+    font-size: 1rem;
+  }
+
   .text:last-of-type {
     margin-bottom: 0;
   }

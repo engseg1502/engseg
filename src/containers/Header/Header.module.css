@@ -30,3 +30,87 @@
 .menu a:hover {
   color: var(--primary-light);
 }
+
+@media (max-width: 992px) {
+  .header {
+    height: 100px;
+  }
+
+  .header .container {
+    padding: 0 1rem;
+  }
+
+  .logo {
+    display: flex;
+    height: 70px;
+    width: 105px;
+  }
+
+  .hamburguer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    box-sizing: content-box;
+    cursor: pointer;
+  }
+
+  .hamburguer:hover > span,
+  .hamburguer:hover > span::before,
+  .hamburguer:hover > span::after {
+    background-color: var(--primary);
+  }
+
+  .hamburguer span,
+  .hamburguer span::before,
+  .hamburguer span::after {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    position: relative;
+  }
+
+  .hamburguer span::before,
+  .hamburguer span::after {
+    content: "";
+    position: absolute;
+  }
+
+  .hamburguer span::before {
+    top: -11px;
+  }
+
+  .hamburguer span::after {
+    top: 11px;
+  }
+
+  .menu {
+    display: none;
+    transition: 0.3s all;
+    position: absolute;
+    left: 0;
+    top: 97px;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    padding: 0 1rem;
+    box-shadow: 0px 3px 4px 2px rgb(0 0 0 / 5%);
+  }
+
+  .menu[data-open="true"] {
+    display: flex;
+  }
+
+  .menu a {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 0.9rem;
+  }
+
+  .menu a:last-of-type {
+    border-bottom: none;
+  }
+}
