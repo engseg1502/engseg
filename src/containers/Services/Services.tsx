@@ -7,6 +7,7 @@ const Services = () => {
     <section id="serviços">
       <div className="container">
         <span className={styles.title}>Serviços</span>
+
         <p className={styles.text}>
           Abaixo você confere os serviços que a Eng.Seg. pode oferecer para sua
           empresa.
@@ -17,7 +18,8 @@ const Services = () => {
             <span className={styles.articleTitle}>
               SPDA - Sistema de proteção contra descargas atmosféricas
             </span>
-            <ul className={styles.listText}>
+
+            <ul className={styles.articleText}>
               <li>Elaboração de projeto para SPDA</li>
               <li>Readequação de estrutura para SPDA</li>
               <li>Emissão de laudo (projeto ou readequação)</li>
@@ -25,6 +27,7 @@ const Services = () => {
               <li>Atendemos os setores residenciais e industriais</li>
             </ul>
           </div>
+
           <div>
             <Image
               src={"/images/spda.jpeg"}
@@ -46,11 +49,13 @@ const Services = () => {
               className={styles.imageRounded}
             />
           </div>
+
           <div>
             <span className={styles.articleTitle}>
               Instalação de placas solares
             </span>
-            <ul className={styles.listText}>
+
+            <ul className={styles.articleText}>
               <li>Elaboração de projeto</li>
               <li>Readequação de instalações existentes</li>
               <li>Instalação</li>
@@ -64,7 +69,8 @@ const Services = () => {
             <span className={styles.articleTitle}>
               Equipe de bombeiros para empresas e eventos
             </span>
-            <p className={styles.textContent}>
+
+            <p className={styles.articleText}>
               Disponibilizamos equipes de Bombeiro civil para empresas, prédios
               e demais estabelecimentos com posto fixo para eventos, shows,
               feiras, bailes de formaturas, estandes de apresentação, festas
@@ -75,6 +81,7 @@ const Services = () => {
               casos traumáticos e clínicos.
             </p>
           </div>
+
           <div>
             <Image
               src={"/images/bomb.png"}
@@ -96,11 +103,13 @@ const Services = () => {
               className={styles.imageRounded}
             /> */}
           </div>
+
           <div className={styles.contentSpecial}>
             <span className={styles.articleTitle}>
               Venda e instalação de poste dobrável
             </span>
-            <p className={styles.textContent}>
+
+            <p className={styles.articleText}>
               Reduza até 78% os custos de manutenção em postes com este novo
               sistema. O Poste dobrável dispensa a necessidade de plataformas
               elevatórias, escadas, profissionais qualificados para trabalhar em
