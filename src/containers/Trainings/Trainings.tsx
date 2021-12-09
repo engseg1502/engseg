@@ -16,7 +16,7 @@ const Trainings = () => {
             <CardLink
               key={title}
               title={title}
-              link={`treinamentos/${slugify(title, {
+              link={`/treinamentos/${slugify(title, {
                 lower: true,
                 strict: true,
                 locale: "pt-BR",

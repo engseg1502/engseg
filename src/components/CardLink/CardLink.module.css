@@ -40,7 +40,6 @@
 }
 
 .link {
-  all: unset;
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -66,5 +65,26 @@
   .title {
     font-size: 1.2rem;
     font-weight: 600;
+  }
+
+  .link {
+    opacity: 1;
+    position: static;
+    left: 0;
+    top: 0;
+    transform: translate(0%, 0%);
+    margin: 1rem auto 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .container:hover .image {
+    opacity: 1;
+  }
+
+  .container:hover .link {
+    opacity: 0.8;
   }
 }

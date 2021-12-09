@@ -23,12 +23,12 @@ const CardLink = ({ title, img, link }: CardLinkProps) => {
             height={275}
           />
 
-          <button
+          <div
             className={styles.link}
             aria-label={`Saiba mais sobre ${title}`}
           >
             Saiba mais
-          </button>
+          </div>
         </div>
       </div>
     </Link>
