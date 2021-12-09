@@ -8,7 +8,7 @@ const WhoWeAre = () => {
       <div className="container">
         <div className={styles.section}>
           <Image
-            src="/images/quem_somos.jpeg"
+            src="/images/quem_somos.jpg"
             alt="Quem somos"
             className={styles.imageRounded}
             width={300}

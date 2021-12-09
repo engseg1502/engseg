@@ -1,7 +1,7 @@
 export const trainings = [
   {
     title: "Operador de Ponte Rolante",
-    img: "operador-ponte-rolante.png",
+    img: "operador-ponte-rolante.jpg",
   },
   {
     title: "Operador de Ponte Elevatória",
@@ -25,7 +25,7 @@ export const trainings = [
   },
   {
     title: "Seg. Montador de Andaime",
-    img: "montagem-de-andaimes.png",
+    img: "montagem-de-andaimes.jpg",
   },
   {
     title: "Operação de Balancim",
@@ -33,15 +33,15 @@ export const trainings = [
   },
   {
     title: "Formação de Brigada",
-    img: "formacao-brigada.jpeg",
+    img: "formacao-brigada.jpg",
   },
   {
     title: "Primeiros Socorros",
-    img: "primeiros-socoros.jpeg",
+    img: "primeiros-socoros.jpg",
   },
   {
     title: "Exposição ao Benzeno",
-    img: "benzeno.png",
+    img: "benzeno.jpg",
   },
   {
     title: "Direção Defensiva",
@@ -57,10 +57,10 @@ export const trainings = [
   },
   {
     title: "NR - 33",
-    img: "nr-33.jpeg",
+    img: "nr-33.jpg",
   },
   {
     title: "NR - 35",
-    img: "nr-35.jpeg",
+    img: "nr-35.jpg",
   },
 ];
