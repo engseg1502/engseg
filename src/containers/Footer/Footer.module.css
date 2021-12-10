@@ -33,6 +33,10 @@
     line-height: 1.5;
   }
 
+  .copyright span {
+    line-height: 1.5;
+  }
+
   .copyright a {
     font-size: 0.8rem;
     margin-top: 0.5rem;
