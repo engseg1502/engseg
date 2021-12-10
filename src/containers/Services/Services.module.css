@@ -48,6 +48,10 @@ ul.articleText {
   margin-bottom: 0;
 }
 
+ul.articleText li::marker {
+  color: var(--primary);
+}
+
 .imageRounded {
   border-radius: 15px;
 }
@@ -84,6 +88,8 @@ ul.articleText {
 
   .articleContainerMedia {
     order: -1;
+    display: flex;
+    justify-content: center;
   }
 
   .articleTitle {
@@ -94,5 +100,9 @@ ul.articleText {
 
   .articleText {
     font-size: 1rem;
+  }
+
+  .video {
+    border-radius: 0;
   }
 }

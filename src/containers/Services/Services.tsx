@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import { ServicesList } from "components";
+import { services } from "data";
 import styles from "./Services.module.css";
 
 const Services = () => {
@@ -129,6 +130,8 @@ const Services = () => {
             </p>
           </div>
         </article>
+
+        <ServicesList services={services} />
       </div>
     </section>
   );
