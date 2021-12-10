@@ -1,5 +1,5 @@
 .container {
-  background-color: #fbfbfb;
+  background-color: var(--section-background);
   width: 100%;
   padding: 4rem 0;
 }

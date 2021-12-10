@@ -19,7 +19,7 @@
   margin: 0 auto;
   padding: 20px;
   transform: translateY(-50%);
-  background: linear-gradient(to bottom, #fbfbfb 50%, #fff 0);
+  background: linear-gradient(to bottom, var(--section-background) 50%, #fff 0);
   width: 70px;
   box-sizing: content-box;
 }
