@@ -1,19 +1,25 @@
 import { useState } from "react";
 
-import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
+
 import styles from "./Header.module.css";
 
 const Header = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const router = useRouter();
 
   const handleClickHamburger = () => {
     setMenuIsOpen((old) => !old);
   };
 
-  const handleClickItemMenu = (id: string) => {
+  const handleClickItemMenu = async (id: string) => {
     if (menuIsOpen) {
       setMenuIsOpen(false);
+    }
+
+    if (router.pathname !== "/") {
+      await router.push("/");
     }
 
     const headerElement = document.getElementById("header");
@@ -31,16 +37,13 @@ const Header = () => {
     <header className={styles.header} id="header">
       <div className={`container ${styles.container}`}>
         <nav className={styles.nav}>
-          <Link href="/" passHref>
-            <div className={styles.logo}>
-              <Image
-                src="/images/logo.png"
-                alt="logo"
-                width={125}
-                height={88}
-              />
-            </div>
-          </Link>
+          <div
+            className={styles.logo}
+            title="Eng. Seg. - Acessoria e Treinamentos"
+            onClick={() => handleClickItemMenu("quemSomos")}
+          >
+            <Image src="/images/logo.png" alt="logo" width={125} height={88} />
+          </div>
 
           <div className={styles.hamburguer} onClick={handleClickHamburger}>
             <span></span>

@@ -1,7 +1,6 @@
-import slugify from "slugify";
-
 import { CardLink } from "components";
 import { trainings } from "data";
+import { titleToSlug } from "helpers";
 
 import styles from "./Trainings.module.css";
 
@@ -16,11 +15,7 @@ const Trainings = () => {
             <CardLink
               key={title}
               title={title}
-              link={`/treinamentos/${slugify(title, {
-                lower: true,
-                strict: true,
-                locale: "pt-BR",
-              })}`}
+              link={`/treinamentos/${titleToSlug(title)}`}
               img={`trainings/${img}`}
             />
           ))}

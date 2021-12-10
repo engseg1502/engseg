@@ -1,8 +1,15 @@
-import "styles/globals.css";
 import type { AppProps } from "next/app";
+import { Header, Footer } from "containers";
+import "styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Header />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  );
 }
 
 export default MyApp;
