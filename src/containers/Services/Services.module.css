@@ -31,6 +31,12 @@
   width: 50%;
 }
 
+.articleContainerMedia {
+  box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+  padding: .5rem;
+  border: 5px solid #fff;
+}
+
 .articleTitle {
   font-size: 1.3rem;
   font-weight: bold;
@@ -50,10 +56,6 @@ ul.articleText {
 
 ul.articleText li::marker {
   color: var(--primary);
-}
-
-.imageRounded {
-  border-radius: 15px;
 }
 
 .video {

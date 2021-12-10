@@ -37,7 +37,6 @@ const Services = () => {
               width={550}
               height={364}
               alt="spda"
-              className={styles.imageRounded}
             />
           </div>
         </article>
@@ -51,7 +50,6 @@ const Services = () => {
               width={550}
               height={310}
               alt="painel"
-              className={styles.imageRounded}
             />
           </div>
 
@@ -95,7 +93,6 @@ const Services = () => {
               width={550}
               height={365}
               alt="bombeiros"
-              className={styles.imageRounded}
             />
           </div>
         </article>
@@ -108,7 +105,7 @@ const Services = () => {
               controls={true}
               autoPlay={false}
               loop={false}
-              className={`${styles.video} ${styles.imageRounded}`}
+              className={styles.video}
             >
               <source src="/videos/servicos.mp4" />
               Infelizmente seu navegador não suporta este video.
