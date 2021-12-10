@@ -32,6 +32,10 @@
   margin-bottom: 1.5rem;
 }
 
+.text:last-of-type {
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 992px) {
   .woweare {
     padding: 2rem 0;

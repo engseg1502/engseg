@@ -7,9 +7,9 @@ interface AnimatedLinkProps {
 
 const AnimatedLink = ({ title, to }: AnimatedLinkProps) => {
   return (
-    <div className={styles.container}>
-      <a href={to}>{title}</a>
-    </div>
+    <a href={to} target="_blank" rel="noreferrer" className={styles.button}>
+      {title}
+    </a>
   );
 };
 
