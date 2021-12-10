@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { List } from "components";
 import styles from "./ServicesList.module.css";
 
 interface ServiceItem {
@@ -27,22 +28,7 @@ const ServicesList = ({ services }: ServicesListProps) => {
 
           <span className={styles.title}>{service.title}</span>
 
-          <ul className={styles.list}>
-            {service.list.map((item, index) => (
-              <li key={index}>
-                <div>
-                  <Image
-                    src="/svgs/checked.svg"
-                    alt='Checked'
-                    width={18}
-                    height={18}
-                  />
-                </div>
-
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
+          <List list={service.list} />
         </div>
       ))}
     </div>
