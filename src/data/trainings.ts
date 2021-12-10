@@ -12,11 +12,15 @@ export const trainings = [
     img: "rocadeira.jpg",
   },
   {
+    title: "Operação de Balancim",
+    img: "balancim-para-construo-civil.jpg",
+  },
+  {
     title: "Operador de Empilhadeira",
     img: "operador-de-empilhadeira.jpg",
   },
   {
-    title: "Operador de guindauto (Munck)",
+    title: "Operador de guindauto",
     img: "operador-de-caminhao-munck.jpg",
   },
   {
@@ -26,10 +30,6 @@ export const trainings = [
   {
     title: "Seg. Montador de Andaime",
     img: "montagem-de-andaimes.jpg",
-  },
-  {
-    title: "Operação de Balancim",
-    img: "balancim-para-construo-civil.jpg",
   },
   {
     title: "Formação de Brigada",
@@ -44,12 +44,12 @@ export const trainings = [
     img: "benzeno.jpg",
   },
   {
-    title: "Direção Defensiva",
-    img: "defensiva.jpg",
-  },
-  {
     title: "Ferramentas Rotativas",
     img: "rotativas.jpg",
+  },
+  {
+    title: "Direção Defensiva",
+    img: "defensiva.jpg",
   },
   {
     title: "NR - 10",
