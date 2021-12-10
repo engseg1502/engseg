@@ -21,7 +21,7 @@ const Trainings = () => {
                 strict: true,
                 locale: "pt-BR",
               })}`}
-              img={img}
+              img={`trainings/${img}`}
             />
           ))}
         </div>

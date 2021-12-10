@@ -34,7 +34,7 @@ const Header = () => {
           <Link href="/" passHref>
             <div className={styles.logo}>
               <Image
-                src="/images/eng_seg_logo.png"
+                src="/images/logo.png"
                 alt="logo"
                 width={125}
                 height={88}

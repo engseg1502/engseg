@@ -33,7 +33,7 @@ const Services = () => {
             className={`${styles.articleContainer} ${styles.articleContainerMedia}`}
           >
             <Image
-              src={"/images/spda.jpg"}
+              src={"/images/services/spda.jpg"}
               width={550}
               height={364}
               alt="spda"
@@ -46,7 +46,7 @@ const Services = () => {
             className={`${styles.articleContainer} ${styles.articleContainerMedia}`}
           >
             <Image
-              src={"/images/intalacao-de-placas-solares.jpg"}
+              src={"/images/services/intalacao-de-placas-solares.jpg"}
               width={550}
               height={310}
               alt="painel"
@@ -89,7 +89,7 @@ const Services = () => {
             className={`${styles.articleContainer} ${styles.articleContainerMedia}`}
           >
             <Image
-              src={"/images/bombeiros.jpg"}
+              src={"/images/services/bombeiros.jpg"}
               width={550}
               height={365}
               alt="bombeiros"
