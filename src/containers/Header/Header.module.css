@@ -25,6 +25,7 @@
 .menu a {
   transition: 0.3s;
   color: #57626a;
+  cursor: pointer;
 }
 
 .menu a:hover {

@@ -11,12 +11,24 @@ const Header = () => {
     setMenuIsOpen((old) => !old);
   };
 
-  const handleClickItemMenu = () => {
-    setMenuIsOpen(false);
+  const handleClickItemMenu = (id: string) => {
+    if (menuIsOpen) {
+      setMenuIsOpen(false);
+    }
+
+    const headerElement = document.getElementById("header");
+    const yOffset = -Number(headerElement?.offsetHeight);
+
+    const element = document.getElementById(id);
+    const elementTop = Number(element?.getBoundingClientRect().top);
+
+    const y = elementTop + window.pageYOffset + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id="header">
       <div className={`container ${styles.container}`}>
         <nav className={styles.nav}>
           <Link href="/" passHref>
@@ -35,24 +47,21 @@ const Header = () => {
           </div>
 
           <div className={styles.menu} data-open={menuIsOpen}>
-            <a onClick={handleClickItemMenu} href="#quemSomos">
-              Quem Somos
-            </a>
-            <a onClick={handleClickItemMenu} href="#treinamentos">
+            <a onClick={() => handleClickItemMenu("quemSomos")}>Quem Somos</a>
+
+            <a onClick={() => handleClickItemMenu("treinamentos")}>
               Treinamentos
             </a>
-            <a onClick={handleClickItemMenu} href="#serviços">
-              Serviços
-            </a>
-            <a onClick={handleClickItemMenu} href="#consultorias">
+
+            <a onClick={() => handleClickItemMenu("serviços")}>Serviços</a>
+
+            <a onClick={() => handleClickItemMenu("consultorias")}>
               Consultorias
             </a>
-            <a onClick={handleClickItemMenu} href="#clientes">
-              Clientes
-            </a>
-            <a onClick={handleClickItemMenu} href="#contato">
-              Contato
-            </a>
+
+            <a onClick={() => handleClickItemMenu("clientes")}>Clientes</a>
+
+            <a onClick={() => handleClickItemMenu("contato")}>Contato</a>
           </div>
         </nav>
       </div>
