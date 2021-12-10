@@ -52,5 +52,6 @@ body {
 @media (max-width: 992px) {
   body {
     padding-top: 100px;
+    padding-bottom: 44px;
   }
 }
