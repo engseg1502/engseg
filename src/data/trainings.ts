@@ -214,7 +214,112 @@ export const trainings = [
   {
     title: "Operador de guindauto",
     img: "operador-de-caminhao-munck.jpg",
-    text: ``,
+    text: `
+    O objetivo do Curso Operador de Caminhão Guindauto (Munck) NR 11 é instruir quanto à utilização da máquina de forma segura e eficiente, dotando os participantes de conhecimentos tecnológicos, habilidades na operação e manutenção do Guindauto de acordo a NR 11.
+    <br /><br />
+    <b>Obs.:</b> A certificação do curso está em conformidade com a Norma Técnica 54 e as Normas Regulamentadoras da Secretária de Inspeção do Trabalho (SIT).
+    <br /><br />
+    <b>O que é Caminhão Munck?</b><br />
+    É um guindaste hidráulico que é instalado sobre o chassis de um caminhão. Muito utilizado na indústria da construção, para movimentar, levantar, transportar e remover cargas de porte médio ou cargas leves, tendo sua utilização fora da construção, como levantamento de cargas na indústria automotiva, árvores, entre outros tipos de atividades que exijam algum levantamento.
+    <br /><br />
+    <b>Conteúdo Programático:</b><br />
+    Conscientização da Importância do Manual de Instrução do equipamento;<br />
+    Legislação de Segurança e Medicina do Trabalho;<br />
+    Conceitos de Segurança do Trabalho;<br />
+    Conceito de Acidente do Trabalho;<br />
+    Terminologia dos Principais Componentes;<br />
+    Princípio do Funcionamento;<br />
+    Inspeção do Material de Içamento;<br />
+    Sinais Visuais;<br />
+    Conceitos de direção defensiva, condições adversas, distância de seguimento;<br />
+    Manutenção de Equipamento;<br />
+    Segurança no Manuseio do Equipamento;<br />
+    Plano de Manutenção e Inspeção;<br />
+    Laudo de Inspeção e Conformidade Técnica;<br />
+    Checklist– Inspeção diária do Guindauto;<br />
+    Percepção dos Riscos e Fatores que Afetam as Percepções das Pessoas;<br />
+    A Importância do Conhecimento da Tarefa;<br />
+    Entendimentos Sobre Ergonomia;<br />
+    Análise de Posto de Trabalho;<br />
+    Riscos ergonômicos;<br />
+    Avaliação Teórica e Prática;<br />
+    Certificado de Participação.
+    <br /><br />
+    <b>Melhoria Contínua:</b><br />
+    Ao final do curso, com o objetivo de buscar melhorias, e a pedido da contratada, a Contratante entregará em até 10 dias úteis uma avaliação do treinamento com sugestões técnicas do instrutor, dividida em duas partes distintas, a saber:
+    <br /><br />
+    <b>Parte I:</b><br />
+    Indicadores de aspectos individuais de cada participante do evento:<br />
+    Assiduidade e Pontualidade;<br />
+    Participação e Desempenho.
+    <br /><br />
+    <b>Parte II:</b><br />
+    Sugestões do instrutor e medidas complementares para a continuidade do desenvolvimento profissional dos participantes e aprimoramento da sua área:<br />
+    Treinamentos complementares;<br />
+    Práticas a serem adotadas no trabalho;<br />
+    Recomendações ao superior imediato do treinando.
+    <br /><br />
+    <b>Referências Normativas quando for o caso aos dispositivos aplicáveis e suas atualizações:</b><br />
+    NR – 01 – Disposições Gerais;<br />
+    NR-06 – Equipamento de Proteção Individual – EPI;<br />
+    NR-11- Transporte, Movimentação, Armazenagem e Manuseio de Materiais;<br />
+    NR-12 – Segurança no Trabalho em Máquinas e Equipamentos;<br />
+    NR-18 – Condições e Meio Ambiente de Trabalho na Indústria da Construção;<br />
+    ABNT NBR 11436 – Sinalização manual para movimentação de carga por meio de equipamento mecânico de elevação – Procedimento;<br />
+    ABNT NBR 16463 – Guindastes;<br />
+    ABNT NBR ISO 4309 – Emenda 1: Equipamentos de movimentação de carga – Cabos de aço – Cuidados, manutenção, instalação, inspeção e descarte;<br />
+    ABNT NBR 13759 – Segurança de máquinas – Equipamentos de parada de emergência – Aspectos funcionais – Princípios para projeto;<br />
+    ABNT NBR ISO/CIE 8995 – Iluminação de ambientes de trabalho;
+    <br /><br />
+    <b>Carga Horária:</b> <br />
+    Curso Operador de Caminhão Guindauto (Munck) NR 11 
+    <br /><br />
+    Participantes sem experiência:<br />
+    Carga horária mínima = 40 horas/aula.
+    <br /><br />
+    Participantes com experiência:<br />
+    Carga horária mínima = 16 horas/aula.
+    <br /><br />
+    Atualização (Reciclagem):<br />
+    Carga horária mínima = 08 horas/aula.
+    <br />
+    O empregador deve realizar treinamento periódico Anualmente e sempre que ocorrer quaisquer das seguintes situações:<br />
+    a) mudança nos procedimentos, condições ou operações de trabalho;<br />
+    b) evento que indique a necessidade de novo treinamento;<br />
+    c) retorno de afastamento ao trabalho por período superior a noventa dias;<br />
+    d) mudança de empresa;<br />
+    e) Troca de máquina ou equipamento.
+    <br /><br />
+    <b>Certificado:</b><br />
+    Será expedido o Certificado para cada participante que atingir o aproveitamento mínimo de 70% (teórico e prático) conforme preconiza as Normas Regulamentadoras.
+    <br /><br />
+    <b>Critérios dos Certificados da Capacitação ou Atualização:</b><br />
+    Nossos certificados são numerados e emitidos de acordo com as Normas Regulamentadoras e dispositivos aplicáveis:<br />
+    Emissão da A.R.T. (Anotação de Responsabilidade Técnica);<br />
+    Nome completo do funcionário e documento de identidade;<br />
+    Conteúdo programático;<br />
+    Carga horária; Cidade, local e data de realização do treinamento;<br />
+    Nome, identificação, assinatura e qualificação do(s) instrutor(es);<br />
+    Nome, identificação e assinatura do responsável técnico pela capacitação;<br />
+    Nome e qualificação do nosso Profissional Habilitado;<br />
+    Especificação do tipo de trabalho e relação dos tipos de espaços confinados;<br />
+    Espaço para assinatura do treinando;<br />
+    Informação no Certificado que os participantes receberam DVD contendo material didático (Apostila, Vídeos, Normas etc.) apresentado no treinamento.
+    <br /><br />
+    <b>Evidencias do Treinamento:</b> <br />
+    Vídeo editado, fotos, documentações digitalizadas, melhoria contínua, parecer do instrutor: Consultar valores.<br />
+    Procedimentos e Documentos necessários para operação de Máquinas e Equipamentos Autopropelidos e Guindar:<br />
+    ASO (Atestado de Saúde Ocupacional, com indicação para operação dentro da validade);<br />
+    Cópia da carteira de trabalho (Página foto; Qualificação civil e Contrato de trabalho);<br />
+    Ficha de registro e controle de entrega de EPI;<br />
+    Cópia do contrato de prestação de serviço;<br />
+    CNH Categoria E,D ou C do colaborador;<br />
+    Certificado de Capacitação e Atualização específica da máquina ou equipamento, carteira de identificação;<br />
+    Laudo de Inspeção Técnica da Máquina ou Equipamento;<br />
+    Laudos das cintas de içamento, cabos de aço e correntes quando for o caso;<br />
+    ART de liberação do equipamento;<br />
+    Manual de Instruções Técnicas do equipamento.
+    `,
   },
   {
     title: "Operador de Retroescavadeira",
