@@ -11,6 +11,7 @@
   flex-direction: column;
   border-top: 4px solid #379d73;
   box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+  background-color: white;
 }
 
 .icon {
@@ -18,7 +19,7 @@
   margin: 0 auto;
   padding: 20px;
   transform: translateY(-50%);
-  background-color: #fbfbfb;
+  background: linear-gradient(to bottom, #fbfbfb 50%, #fff 0);
   width: 70px;
   box-sizing: content-box;
 }
@@ -28,7 +29,7 @@
   font-weight: 600;
   text-align: center;
   color: #444b56;
-  margin-top: -2rem;
+  margin-top: -2.5rem;
   margin-bottom: 2rem;
 }
 

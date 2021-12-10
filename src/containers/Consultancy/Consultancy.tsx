@@ -3,7 +3,9 @@ import styles from "./Consultancy.module.css";
 const Consultancy = () => {
   return (
     <section id="consultorias" className={styles.consultancy}>
-      <div className="container"></div>
+      <div className="container">
+        <span className={styles.title}>Consultorias</span>
+      </div>
     </section>
   );
 };
