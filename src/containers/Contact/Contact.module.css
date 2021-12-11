@@ -24,6 +24,10 @@
   line-height: 1.6;
 }
 
+a.text:hover {
+  color: var(--primary);
+}
+
 .socials {
   display: flex;
   gap: 1rem;

@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-import { Header, Footer } from "containers";
+import { Header, Contact, Footer } from "containers";
 import { Whatsapp } from "components";
 
 import "styles/globals.css";
@@ -47,6 +47,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Header />
       <Component {...pageProps} />
       <Whatsapp />
+      <Contact />
       <Footer />
     </>
   );

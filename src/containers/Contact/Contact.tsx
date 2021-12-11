@@ -10,8 +10,18 @@ const Contact = () => {
           <div className={styles.content}>
             <span className={styles.title}>Entre em Contato</span>
 
-            <span className={styles.text}>Telefone: (41) 9 9695-4434</span>
-            <span className={styles.text}>E-mail: edevaldo@engseg.art.br</span>
+            <a
+              className={styles.text}
+              href={CONTACTS.whatsapp}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Telefone: (41) 9 9695-4434
+            </a>
+
+            <a className={styles.text} href={CONTACTS.mail}>
+              E-mail: edevaldo@engseg.art.br
+            </a>
           </div>
 
           <div className={styles.socials}>

@@ -6,7 +6,6 @@ import {
   Trainings,
   Consultancy,
   Customers,
-  Contact,
 } from "containers";
 
 const Home: NextPage = () => {
@@ -18,7 +17,6 @@ const Home: NextPage = () => {
       <Services />
       <Consultancy />
       <Customers />
-      <Contact />
     </>
   );
 };
