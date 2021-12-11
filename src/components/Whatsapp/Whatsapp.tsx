@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { contacts } from "data";
+import { CONTACTS } from "data";
 import styles from "./Whatsapp.module.css";
 
 const Whatsapp = () => {
   return (
     <a
-      href={contacts.whatsapp}
+      href={CONTACTS.whatsapp}
       target="_blank"
       rel="noreferrer"
       className={styles.whatsapp}

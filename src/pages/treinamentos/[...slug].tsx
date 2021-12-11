@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import Image from "next/image";
 
-import { trainings } from "data";
+import { TRAININGS } from "data";
 import { TrainingInterface } from "interfaces";
 import { titleToSlug } from "helpers";
 
@@ -26,7 +26,7 @@ const Training: NextPage = () => {
 
     if (!slugTraining) goToHome();
 
-    const getTraining = trainings.find(
+    const getTraining = TRAININGS.find(
       (training) => titleToSlug(training.title) === slugTraining
     );
 

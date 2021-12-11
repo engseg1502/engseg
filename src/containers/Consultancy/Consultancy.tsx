@@ -1,4 +1,4 @@
-import { consultancies } from "data";
+import { CONSULTANCIES } from "data";
 import { List } from "components";
 import styles from "./Consultancy.module.css";
 
@@ -9,7 +9,7 @@ const Consultancy = () => {
         <span className={styles.title}>Consultorias</span>
 
         <List
-          list={consultancies}
+          list={CONSULTANCIES}
           customStyleContainer={styles.list}
           customStyleItem={styles.listItem}
         />

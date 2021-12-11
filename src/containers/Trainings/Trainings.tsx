@@ -1,5 +1,5 @@
 import { CardLink } from "components";
-import { trainings } from "data";
+import { TRAININGS } from "data";
 import { titleToSlug } from "helpers";
 
 import styles from "./Trainings.module.css";
@@ -11,7 +11,7 @@ const Trainings = () => {
         <span className={styles.title}>Treinamentos</span>
 
         <div className={styles.grid}>
-          {trainings?.map(({ title, img }) => (
+          {TRAININGS?.map(({ title, img }) => (
             <CardLink
               key={title}
               title={title}

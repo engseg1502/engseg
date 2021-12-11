@@ -1,4 +1,4 @@
-export const consultancies = [
+export const CONSULTANCIES = [
   "Implementação de CIPA",
   "Dimensionamento de SESMT",
   "Aquisição e Utilização de EPI's",

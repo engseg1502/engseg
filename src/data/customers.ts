@@ -1,4 +1,4 @@
-export const customers = [
+export const CUSTOMERS = [
   {
     img: "blaspint.png",
     height: 34,

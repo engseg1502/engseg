@@ -1,4 +1,4 @@
-export const services = [
+export const SERVICES = [
   {
     title: "Laudos Técnicos",
     icon: "laudos-tecnicos.svg",

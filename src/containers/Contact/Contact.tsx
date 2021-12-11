@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { contacts } from "data";
+import { CONTACTS } from "data";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
@@ -17,7 +17,7 @@ const Contact = () => {
           <div className={styles.socials}>
             <a
               className={`${styles.social} ${styles.facebook}`}
-              href={contacts.facebook}
+              href={CONTACTS.facebook}
               target="_blank"
               rel="noreferrer"
             >
@@ -32,7 +32,7 @@ const Contact = () => {
 
             <a
               className={`${styles.social} ${styles.instagram}`}
-              href={contacts.instagram}
+              href={CONTACTS.instagram}
               target="_blank"
               rel="noreferrer"
             >
@@ -47,7 +47,7 @@ const Contact = () => {
 
             <a
               className={`${styles.social} ${styles.whatsapp}`}
-              href={contacts.whatsapp}
+              href={CONTACTS.whatsapp}
               target="_blank"
               rel="noreferrer"
             >

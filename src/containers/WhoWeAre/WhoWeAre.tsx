@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AnimatedLink } from "components";
-import { contacts } from "data";
+import { CONTACTS } from "data";
 import styles from "./WhoWeAre.module.css";
 
 const WhoWeAre = () => {
@@ -43,7 +43,7 @@ const WhoWeAre = () => {
 
             <AnimatedLink
               title="Fale conosco pelo Whatsapp"
-              to={contacts.whatsapp}
+              to={CONTACTS.whatsapp}
             />
           </article>
         </div>

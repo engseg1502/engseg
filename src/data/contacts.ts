@@ -1,4 +1,4 @@
-export const contacts = {
+export const CONTACTS = {
   facebook: "https://www.facebook.com/AssessoriaseTreinamentos/",
   instagram: "https://www.instagram.com/engseg.art/",
   mail: "mailto:edevaldo@engseg.art.br",

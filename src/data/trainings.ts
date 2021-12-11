@@ -1,6 +1,6 @@
 import { TrainingInterface } from "interfaces";
 
-export const trainings: TrainingInterface[] = [
+export const TRAININGS: TrainingInterface[] = [
   {
     title: "Operador de Ponte Rolante",
     img: "operador-ponte-rolante.jpg",

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { customers } from "data";
+import { CUSTOMERS } from "data";
 import styles from "./Customers.module.css";
 
 const Customers = () => {
@@ -11,7 +11,7 @@ const Customers = () => {
         <p className={styles.subtitle}>Alguns de nossos clientes</p>
 
         <div className={styles.gallery}>
-          {customers.map((customer, index) => (
+          {CUSTOMERS.map((customer, index) => (
             <div key={index} className={styles.image}>
               <Image
                 src={`/images/customers/${customer.img}`}
