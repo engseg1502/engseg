@@ -15,7 +15,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Gabriel Oczust" />
-        <meta name="keywords" content=""></meta>
+        <meta
+          name="keywords"
+          content="segurança, segurança do trabalho, nr-33, nr-35, nr-10, EPI, EP, SPDA, CIPA, poste dobravel, bombeiros para empresas, laudos tecnicos"
+        ></meta>
         <meta
           name="description"
           content="Atuamos no segmento de treinamento e assessoria em segurança, meio ambiente e saúde industrial, com foco em aplicação de soluções para a empresa"
