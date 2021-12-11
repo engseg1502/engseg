@@ -44,12 +44,13 @@ const Training: NextPage = () => {
     <>
       <Head>
         <title>{training.title} | Eng.Seg</title>
-        <meta name="description" content={training.seo} />
-        <meta property="og:description" content={training.seo} />
+        <meta name="description" content={training.seo.description} />
+        <meta property="og:description" content={training.seo.description} />
         <meta
           property="og:url"
           content={`https://www.exclusividros.com.br/treinamentos/${slugTraining}`}
         />
+        <meta name="keywords" content={training.seo.keywords.join(", ")}></meta>
       </Head>
 
       <div className={styles.container}>
