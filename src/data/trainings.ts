@@ -23,8 +23,15 @@ export const TRAININGS: TrainingInterface[] = [
     
     Todos os treinamentos terão a carga horária e o conteúdo programático adaptados às necessidades e perfil de cada cliente, observando sempre as Normas Regulamentadoras, Decretos, Leis, Regulamentos e Normas internas estabelecidas pelas empresas, se houver.`,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O Objetivo do curso é explicar na teoria e na prática a operação da máquina e seus acessórios/componentes de forma eficiente e segura",
+      keywords: [
+        "operador de ponte rolante",
+        "curso de operador de ponte rolante",
+        "treinamento de operador de ponte rolante",
+        "treinamento de ponte rolante",
+        "treinamento para movimentação de cargas",
+      ],
     },
   },
   {
@@ -50,8 +57,16 @@ export const TRAININGS: TrainingInterface[] = [
     Todos os treinamentos terão a carga horária e o conteúdo programático adaptados às necessidades e perfil de cada cliente, observando sempre as Normas Regulamentadoras, Decretos, Leis, Regulamentos e Normas internas estabelecidas pelas empresas, se houver.
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O Objetivo do curso é explicar na teoria e na prática a operação da máquina e seus acessórios/componentes de forma eficiente e segura",
+      keywords: [
+        "operador de ponte elevatória",
+        "curso de operador de ponte elevatória",
+        "treinamento de operador de ponte elevatória",
+        "treinamento de ponte elevatória",
+        "treinamento para movimentação de cargas",
+        "treinamento de plataforma elevatória",
+      ],
     },
   },
   {
@@ -77,16 +92,21 @@ export const TRAININGS: TrainingInterface[] = [
     Todos os treinamentos terão a carga horária e o conteúdo programático adaptados às necessidades e perfil de cada cliente, observando sempre as Normas Regulamentadoras, Decretos, Leis, Regulamentos e Normas internas estabelecidas pelas empresas, se houver.
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O Objetivo do curso é explicar na teoria e na prática a operação da máquina e seus acessórios/componentes de forma eficiente e segura",
+      keywords: [
+        "operador de roçadeira",
+        "curso de operador de roçadeira",
+        "treinamento de operador de roçadeira",
+        "treinamento de roçadeira",
+        "treinamento para roçadeira",
+      ],
     },
   },
   {
     title: "Operação de Balancim",
     img: "balancim-para-construo-civil.jpg",
     text: `
-    Treinamento Capacitação NR 18 Segurança na Operação de Balancim (Andaime Suspenso)
-    <br /><br />
     <b>Treinamento Balancim (Andaime Suspenso)</b><br />
     O objetivo do Curso de Balancim (Andaime) – NR 18 visa apresentar requisitos mínimos implementando a atividade do balancim e andaime para assim demonstrar a competência técnica necessária e assegurar a confiabilidade nos resultados entregues. 
     <br /><br />
@@ -182,8 +202,17 @@ export const TRAININGS: TrainingInterface[] = [
     Evidências do Treinamento: Vídeo editado, fotos, documentações digitalizadas, melhoria contínua, parecer do instrutor: Consultar valores.
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do Curso de Balancim visa apresentar requisitos mínimos implementando a atividade do balancim e andaime",
+      keywords: [
+        "operação de balancim",
+        "curso de operação de balancim",
+        "treinamento de operação de balancim",
+        "nr 18",
+        "nr18",
+        "andaime suspenso",
+        "balancim",
+      ],
     },
   },
   {
@@ -203,19 +232,17 @@ export const TRAININGS: TrainingInterface[] = [
     Ingressantes ou operadores de empilhadeira interessados em se aperfeiçoar, Trabalhadores que realizam transporte, movimentação, armazenagem e manuseio de materiais.
     <br /><br />
     <b>Conteúdo Programático:</b><br />
-    <ul>
-    <li>Legislação específica da Norma Regulamentadora n.º 11;</li>
-    <li>Histórico da empilhadeira;</li>
-    <li>Fatores de classificação, modelos e implementos;</li>
-    <li>Procedimentos de segurança para operadores de empilhadeira;</li>
-    <li>Equilíbrio e estabilidade da empilhadeira;</li>
-    <li>Inspeção diária e periódica;</li>
-    <li>Instrumentos e painel;</li>
-    <li>Operações de empilhamento horizontal e vertical;</li>
-    <li>Aspectos gerais de prevenção de acidentes e EPI;</li>
-    <li>Princípios básicos de prevenção de incêndios;</li>
-    <li>Prática de empilhamento vertical e horizontal.</li>
-    </ul>
+    • Legislação específica da Norma Regulamentadora n.º 11;<br />
+    • Histórico da empilhadeira;<br />
+    • Fatores de classificação, modelos e implementos;<br />
+    • Procedimentos de segurança para operadores de empilhadeira;<br />
+    • Equilíbrio e estabilidade da empilhadeira;<br />
+    • Inspeção diária e periódica;<br />
+    • Instrumentos e painel;<br />
+    • Operações de empilhamento horizontal e vertical;<br />
+    • Aspectos gerais de prevenção de acidentes e EPI;<br />
+    • Princípios básicos de prevenção de incêndios;<br />
+    • Prática de empilhamento vertical e horizontal.
     <br /><br />
     <b>Certificação:</b><br />
     Será emitido um certificado para cada participante do curso, contendo seu nome, as horas/aula cumpridas pelo aluno e, no verso, o conteúdo programático.
@@ -229,8 +256,18 @@ export const TRAININGS: TrainingInterface[] = [
     <b>LOCAL:</b> A combinar com a Empresa
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O Objetivo do curso é treinar e capacitar operadores de equipamentos de transporte, empilhadeira, ponte rolante, talha elétrica, paleteira, de acordo com os requisitos estabelecidos pela legislação vigente",
+      keywords: [
+        "operador de empilhadeira",
+        "trienamento operador de empilhadeira",
+        "curso operador de empilhadeira",
+        "nr 11",
+        "nr11",
+        "empilhadeira",
+        "talha elétrica",
+        "paleteira",
+      ],
     },
   },
   {
@@ -343,8 +380,18 @@ export const TRAININGS: TrainingInterface[] = [
     Manual de Instruções Técnicas do equipamento.
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do Curso Operador de Caminhão Guindauto (Munck) NR 11 é instruir quanto à utilização da máquina de forma segura e eficiente",
+      keywords: [
+        "operador de guindauto",
+        "operador de munck",
+        "curso operador de guindauto",
+        "treinamento operador de guindauto",
+        "curso de operador de munck",
+        "treinamento operador de munck",
+        "nr11",
+        "nr 11",
+      ],
     },
   },
   {
@@ -422,8 +469,17 @@ export const TRAININGS: TrainingInterface[] = [
     Será expedido o Certificado para cada participante que atingir o aproveitamento mínimo de 70% (teórico e prático) conforme preconiza as Normas Regulamentadoras.
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O Curso Operador de Pá Carregadeira tem objetivo de capacitar seus trabalhadores na operação segura de máquinas autopropelidas como Pá Carregadeira, Retroescavadeira, Escavadeira e Trator Esteira",
+      keywords: [
+        "operador de pá carregadeira",
+        "curso operador de pá carregadeira",
+        "treinamento operador de pá carregadeira",
+        "curso operador de escavadeira",
+        "curso operador de retroescavadeira",
+        "treinamento operador de escavadeira",
+        "treinamento operador de retroescavadeira",
+      ],
     },
   },
   {
@@ -527,8 +583,15 @@ export const TRAININGS: TrainingInterface[] = [
     Evidencias do Treinamento: Vídeo editado, fotos, documentações digitalizadas, melhoria contínua, parecer do instrutor: Consultar valores. 
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O curso de Andaime Tubular tem como objetivo principal a capacitação do profissional dentro das normas regulamentadoras NR 18, sabendo diferenciar cada tipo de equipamento, as plataformas de trabalho e os cuidados com os procedimentos de montagem e desmontagens dos andaimes",
+      keywords: [
+        "curso de andaime tubular",
+        "curso andaime tubular",
+        "treinamento andaime tubular",
+        "nr18",
+        "nr 18",
+      ],
     },
   },
   {
@@ -541,7 +604,9 @@ export const TRAININGS: TrainingInterface[] = [
     40 horas Nível Avançado
     <br /><br />
     <b>Objetivo:</b><br />
-    Treinar e capacitar os colaboradores proporcionando conhecimentos sobre prevenção, isolamento e extinção de princípios de incêndio, abandono de local com sinistro além de técnicas de primeiros socorros, para que possam proteger a vida e o patrimônio, bem como reduzir as consequências do sinistro, de acordo com os requisitos estabelecidos pela legislação vigente. Público Alvo:
+    Treinar e capacitar os colaboradores proporcionando conhecimentos sobre prevenção, isolamento e extinção de princípios de incêndio, abandono de local com sinistro além de técnicas de primeiros socorros, para que possam proteger a vida e o patrimônio, bem como reduzir as consequências do sinistro, de acordo com os requisitos estabelecidos pela legislação vigente. 
+    <br /><br />
+    <b>Público Alvo:</b><br />
     Técnicos de segurança do trabalho, cipeiros, brigadistas de incêndio e demais interessados.
     <br /><br />
     <b>Pré-requisitos:</b><br />
@@ -583,8 +648,15 @@ export const TRAININGS: TrainingInterface[] = [
     <b>LOCAL:</b> A combinar com a Empresa
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do curso é treinar e capacitar os colaboradores sobre prevenção, isolamento e extinção de princípios de incêndio, abandono de local com sinistro além de técnicas de primeiros socorros",
+      keywords: [
+        "formação de brigada",
+        "curso formação de brigada",
+        "treinamento formação de brigada",
+        "curso de brigada",
+        "treinamento de brigada",
+      ],
     },
   },
   {
@@ -620,8 +692,13 @@ export const TRAININGS: TrainingInterface[] = [
     <b>LOCAL:</b> A combinar com a Empresa
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do curso é ensinar o colaborador a reconhecer uma situação de emergência, classificar sua gravidade e prestar os cuidados imediatos necessários para o atendimento dos diversos agravos à saúde",
+      keywords: [
+        "primeiros socorros",
+        "curso de primeiros socorros",
+        "treinamento de primeiros socorros",
+      ],
     },
   },
   {
@@ -651,8 +728,15 @@ export const TRAININGS: TrainingInterface[] = [
     Profissionais tercerizados que frequentam estabelecimentos com exposição ao benzeno.
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O principal objetivo do curso é estabelecer os requisitos mínimos de segurança e saúde no trabalho para as atividades com exposição ocupacional ao benzeno",
+      keywords: [
+        "exposição ao benzeno",
+        "curso para exposição ao benzeno",
+        "treinamento exposição ao benzeno",
+        "como manusear benzeno",
+        "como trabalhar com benzeno",
+      ],
     },
   },
   {
@@ -668,8 +752,17 @@ export const TRAININGS: TrainingInterface[] = [
     Todos os treinamentos terão a carga horária e o conteúdo programático adaptados às necessidades e perfil de cada cliente, observando sempre as Normas Regulamentadoras, Decretos, Leis, Regulamentos e Normas internas estabelecidas pelas empresas, se houver.
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O Objetivo do curso é explicar na teoria e na prática a operação da máquina e seus acessórios/componentes de forma eficiente e segura",
+      keywords: [
+        "ferramentas rotativas",
+        "como manusear ferramentas rotativas",
+        "como trabalhar com ferramentas rotativas",
+        "curso para ferramentas rotativas",
+        "treinamento para ferramentas rotativas",
+        "curso de motoserra",
+        "treinamento de motoserra",
+      ],
     },
   },
   {
@@ -726,8 +819,17 @@ export const TRAININGS: TrainingInterface[] = [
     • Como identificar riscos para garantir mais segurança? 
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do curso trata-se de procedimentos corretos, seguros e responsáveis de se conduzir um veículo, motocicleta, motoneta e ciclomotor",
+      keywords: [
+        "direção defensiva",
+        "treinamento direção defensiva",
+        "curso direção defensiva",
+        "direção defensiva para carros",
+        "direção defensiva para motocicletas",
+        "direção defensiva para ciclomotores",
+        "direção defensiva para motonetas",
+      ],
     },
   },
   {
@@ -774,8 +876,18 @@ export const TRAININGS: TrainingInterface[] = [
     <b>LOCAL:</b> A combinar com a Empresa
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do curso é adquirir conhecimentos da Norma Regulamentadora 10 que interajam em instalações elétricas e serviços com eletricidade, conforme NR-10.1",
+      keywords: [
+        "nr10",
+        "nr 10",
+        "nr-10",
+        "curso nr10",
+        "treinamento nr10",
+        "segurança com eletricidade",
+        "curso de segurança com eletrecidade",
+        "treinamento de segurança com eletrecidade",
+      ],
     },
   },
   {
@@ -798,8 +910,16 @@ export const TRAININGS: TrainingInterface[] = [
     <b>LOCAL:</b> A combinar com a Empresa
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do curso é adquirir conhecimentos para planejar e autorizar a liberação de espaços confinados a fim de avaliar, monitorar e controlar os riscos existentes",
+      keywords: [
+        "nr33",
+        "nr 33",
+        "nr-33",
+        "curso nr33",
+        "treinamento nr33",
+        "espaços confinados",
+      ],
     },
   },
   {
@@ -833,8 +953,17 @@ export const TRAININGS: TrainingInterface[] = [
     <b>LOCAL:</b> A combinar com a Empresa
     `,
     seo: {
-      description: "",
-      keywords: [],
+      description:
+        "O objetivo do curso é adquirir conhecimentos sobre as medidas de proteção para o trabalho em altura, envolvendo o planejamento, a organização e a execução",
+      keywords: [
+        "nr35",
+        "nr 35",
+        "nr-35",
+        "curso nr35",
+        "treinamento nr35",
+        "curso para trabalho em altura",
+        "treinamento para trabalho em altura",
+      ],
     },
   },
 ];
