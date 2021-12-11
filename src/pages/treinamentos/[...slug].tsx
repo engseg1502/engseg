@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
+import Head from "next/head";
 import Image from "next/image";
 
 import { TRAININGS } from "data";
@@ -17,12 +18,12 @@ const Training: NextPage = () => {
     undefined
   );
 
+  const slugTraining = router.query.slug?.[0];
+
   useEffect(() => {
     const goToHome = () => {
       router.push("/");
     };
-
-    const slugTraining = router.query.slug?.[0];
 
     if (!slugTraining) goToHome();
 
@@ -33,37 +34,49 @@ const Training: NextPage = () => {
     if (!getTraining) goToHome();
 
     setTraining(getTraining);
-  }, [router]);
+  }, [router, slugTraining]);
 
   if (!training) {
     return <div>Carregando...</div>;
   }
 
   return (
-    <div className={styles.container}>
-      <div className="container">
-        <article className={styles.training}>
-          <h1 className={styles.title}>{training.title}</h1>
+    <>
+      <Head>
+        <title>{training.title} | Eng.Seg</title>
+        <meta name="description" content={training.seo} />
+        <meta property="og:description" content={training.seo} />
+        <meta
+          property="og:url"
+          content={`https://www.exclusividros.com.br/treinamentos/${slugTraining}`}
+        />
+      </Head>
 
-          <div className={styles.content}>
-            <div className={styles.imageContainer}>
-              <Image
-                src={`/images/trainings/${training.img}`}
-                alt={training.title}
-                width={500}
-                height={624}
-                className={styles.image}
+      <div className={styles.container}>
+        <div className="container">
+          <article className={styles.training}>
+            <h1 className={styles.title}>{training.title}</h1>
+
+            <div className={styles.content}>
+              <div className={styles.imageContainer}>
+                <Image
+                  src={`/images/trainings/${training.img}`}
+                  alt={training.title}
+                  width={500}
+                  height={624}
+                  className={styles.image}
+                />
+              </div>
+
+              <p
+                className={styles.text}
+                dangerouslySetInnerHTML={{ __html: training.text }}
               />
             </div>
-
-            <p
-              className={styles.text}
-              dangerouslySetInnerHTML={{ __html: training.text }}
-            />
-          </div>
-        </article>
+          </article>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

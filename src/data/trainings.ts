@@ -22,6 +22,7 @@ export const TRAININGS: TrainingInterface[] = [
     <br />
     
     Todos os treinamentos terão a carga horária e o conteúdo programático adaptados às necessidades e perfil de cada cliente, observando sempre as Normas Regulamentadoras, Decretos, Leis, Regulamentos e Normas internas estabelecidas pelas empresas, se houver.`,
+    seo: "",
   },
   {
     title: "Operador de Ponte Elevatória",
@@ -45,6 +46,7 @@ export const TRAININGS: TrainingInterface[] = [
     
     Todos os treinamentos terão a carga horária e o conteúdo programático adaptados às necessidades e perfil de cada cliente, observando sempre as Normas Regulamentadoras, Decretos, Leis, Regulamentos e Normas internas estabelecidas pelas empresas, se houver.
     `,
+    seo: "",
   },
   {
     title: "Operador de Roçadeira",
@@ -68,6 +70,7 @@ export const TRAININGS: TrainingInterface[] = [
 
     Todos os treinamentos terão a carga horária e o conteúdo programático adaptados às necessidades e perfil de cada cliente, observando sempre as Normas Regulamentadoras, Decretos, Leis, Regulamentos e Normas internas estabelecidas pelas empresas, se houver.
     `,
+    seo: "",
   },
   {
     title: "Operação de Balancim",
@@ -169,6 +172,7 @@ export const TRAININGS: TrainingInterface[] = [
     Informação no Certificado que os participantes receberam DVD contendo material didático (Apostila, Vídeos, Normas etc.) apresentado no treinamento.<br />
     Evidências do Treinamento: Vídeo editado, fotos, documentações digitalizadas, melhoria contínua, parecer do instrutor: Consultar valores.
     `,
+    seo: "",
   },
   {
     title: "Operador de Empilhadeira",
@@ -212,6 +216,7 @@ export const TRAININGS: TrainingInterface[] = [
     <br /><br />
     <b>LOCAL:</b> A combinar com a Empresa
     `,
+    seo: "",
   },
   {
     title: "Operador de guindauto",
@@ -322,55 +327,66 @@ export const TRAININGS: TrainingInterface[] = [
     ART de liberação do equipamento;<br />
     Manual de Instruções Técnicas do equipamento.
     `,
+    seo: "",
   },
   {
     title: "Operador de Retroescavadeira",
     img: "retro-volvo.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "Seg. Montador de Andaime",
     img: "montagem-de-andaimes.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "Formação de Brigada",
     img: "formacao-brigada.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "Primeiros Socorros",
     img: "primeiros-socoros.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "Exposição ao Benzeno",
     img: "benzeno.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "Ferramentas Rotativas",
     img: "rotativas.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "Direção Defensiva",
     img: "defensiva.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "NR - 10",
     img: "nr-10.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "NR - 33",
     img: "nr-33.jpg",
     text: ``,
+    seo: "",
   },
   {
     title: "NR - 35",
     img: "nr-35.jpg",
     text: ``,
+    seo: "",
   },
 ];
