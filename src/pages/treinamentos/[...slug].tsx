@@ -56,7 +56,7 @@ const Training: NextPage = () => {
       <div className={styles.container}>
         <div className="container">
           <article className={styles.training}>
-            <h1 className={styles.title}>{training.title}</h1>
+            <h1 className={styles.title}>Treinamento - {training.title}</h1>
 
             <div className={styles.content}>
               <div className={styles.imageContainer}>
