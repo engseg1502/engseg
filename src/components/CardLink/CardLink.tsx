@@ -12,7 +12,7 @@ const CardLink = ({ title, img, link }: CardLinkProps) => {
   return (
     <Link href={link} passHref>
       <div className={styles.container} title={`Saiba mais sobre ${title}`}>
-        <span className={styles.title}>{title}</span>
+        <h3 className={styles.title}>{title}</h3>
 
         <div className={styles.card}>
           <Image

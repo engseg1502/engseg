@@ -21,7 +21,7 @@ const ServicesList = ({ services }: ServicesListProps) => {
             />
           </div>
 
-          <span className={styles.title}>{service.title}</span>
+          <h4 className={styles.title}>{service.title}</h4>
 
           <List list={service.list} />
         </div>

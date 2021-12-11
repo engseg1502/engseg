@@ -8,7 +8,7 @@ const Trainings = () => {
   return (
     <section id="treinamentos" className={styles.trainings}>
       <div className="container">
-        <span className={styles.title}>Treinamentos</span>
+        <h2 className={styles.title}>Treinamentos</h2>
 
         <div className={styles.grid}>
           {TRAININGS?.map(({ title, img }) => (

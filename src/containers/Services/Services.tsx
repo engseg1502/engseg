@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section id="serviços" className={styles.services}>
       <div className="container">
-        <span className={styles.title}>Serviços</span>
+        <h2 className={styles.title}>Serviços</h2>
 
         <p className={styles.subtitle}>
           Abaixo você confere os serviços que a Eng.Seg. pode oferecer para sua
@@ -16,9 +16,9 @@ const Services = () => {
 
         <article className={styles.article}>
           <div className={styles.articleContainer}>
-            <span className={styles.articleTitle}>
+            <h3 className={styles.articleTitle}>
               SPDA - Sistema de proteção contra descargas atmosféricas
-            </span>
+            </h3>
 
             <ul className={styles.articleText}>
               <li>Elaboração de projeto para SPDA</li>
@@ -54,9 +54,9 @@ const Services = () => {
           </div>
 
           <div className={styles.articleContainer}>
-            <span className={styles.articleTitle}>
+            <h3 className={styles.articleTitle}>
               Instalação de placas solares
-            </span>
+            </h3>
 
             <ul className={styles.articleText}>
               <li>Elaboração de projeto</li>
@@ -69,9 +69,9 @@ const Services = () => {
 
         <article className={styles.article}>
           <div className={styles.articleContainer}>
-            <span className={styles.articleTitle}>
+            <h3 className={styles.articleTitle}>
               Equipe de bombeiros para empresas e eventos
-            </span>
+            </h3>
 
             <p className={styles.articleText}>
               Disponibilizamos equipes de Bombeiro civil para empresas, prédios
@@ -113,9 +113,9 @@ const Services = () => {
           </div>
 
           <div className={styles.articleContainer}>
-            <span className={styles.articleTitle}>
+            <h3 className={styles.articleTitle}>
               Venda e instalação de poste dobrável
-            </span>
+            </h3>
 
             <p className={styles.articleText}>
               Reduza até 78% os custos de manutenção em postes com este novo

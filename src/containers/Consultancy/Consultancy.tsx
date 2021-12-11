@@ -6,7 +6,7 @@ const Consultancy = () => {
   return (
     <section id="consultorias" className={styles.consultancy}>
       <div className="container">
-        <span className={styles.title}>Consultorias</span>
+        <h2 className={styles.title}>Consultorias</h2>
 
         <List
           list={CONSULTANCIES}

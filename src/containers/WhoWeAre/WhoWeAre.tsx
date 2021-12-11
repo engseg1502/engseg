@@ -19,7 +19,7 @@ const WhoWeAre = () => {
           </div>
 
           <article>
-            <span className={styles.title}>Quem Somos ?</span>
+            <h1 className={styles.title}>Quem Somos ?</h1>
 
             <p className={styles.text}>
               Atuamos no segmento de treinamento e assessoria em segurança, meio
