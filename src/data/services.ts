@@ -1,4 +1,6 @@
-export const SERVICES = [
+import { ServiceInterface } from "interfaces";
+
+export const SERVICES: ServiceInterface[] = [
   {
     title: "Laudos Técnicos",
     icon: "laudos-tecnicos.svg",

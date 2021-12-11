@@ -1,15 +1,10 @@
 import Image from "next/image";
 import { List } from "components";
+import { ServiceInterface } from "interfaces";
 import styles from "./ServicesList.module.css";
 
-interface ServiceItem {
-  title: string;
-  icon: string;
-  list: Array<string>;
-}
-
 interface ServicesListProps {
-  services: ServiceItem[];
+  services: ServiceInterface[];
 }
 
 const ServicesList = ({ services }: ServicesListProps) => {
