@@ -43,7 +43,7 @@ const Training: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{training.title} | Eng.Seg</title>
+        <title>{training.title} - Treinamento</title>
         <meta name="description" content={training.seo.description} />
         <meta property="og:description" content={training.seo.description} />
         <meta
