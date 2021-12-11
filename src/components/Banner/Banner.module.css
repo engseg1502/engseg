@@ -1,0 +1,44 @@
+.banner {
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  right: 27.5%;
+  transform: translateX(50%);
+
+  height: 100%;
+  width: 35%;
+  padding: 2rem;
+
+  background-color: rgba(79, 90, 104, 0.8);
+  color: var(--light);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .content {
+    display: none;
+  }
+}

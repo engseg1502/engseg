@@ -19,12 +19,18 @@
 
 .whatsapp span {
   font-size: 1rem;
+  font-weight: 600;
   color: #fff;
   flex: 1;
+  letter-spacing: 1px;
 }
 
 .whatsapp img {
   filter: brightness(0) invert(1);
+}
+
+.desk {
+  display: flex;
 }
 
 .mobile {

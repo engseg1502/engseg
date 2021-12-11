@@ -19,7 +19,7 @@ const Whatsapp = () => {
         <Image src="/svgs/whatsapp.svg" alt="WhatsApp" width={20} height={20} />
       </div>
 
-      <span>Solicite uma proposta</span>
+      <span>Solicite uma Proposta</span>
     </a>
   );
 };

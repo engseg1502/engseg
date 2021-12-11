@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+}
+
+.container,
+.carouselItem {
+  max-height: 345px;
+}
+
+.carouselContainer {
+  height: 100%;
+}
+
+.carouselItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselDots {
+  bottom: 10px;
+}

@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import {
-  Banner,
+  Banners,
   WhoWeAre,
   Services,
   Trainings,
@@ -12,7 +12,7 @@ import {
 const Home: NextPage = () => {
   return (
     <>
-      <Banner />
+      <Banners />
       <WhoWeAre />
       <Trainings />
       <Services />

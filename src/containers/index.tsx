@@ -1,5 +1,5 @@
 export { default as Header } from "./Header";
-export { default as Banner } from "./Banner";
+export { default as Banners } from "./Banners";
 export { default as WhoWeAre } from "./WhoWeAre";
 export { default as Services } from "./Services";
 export { default as Trainings } from "./Trainings";
