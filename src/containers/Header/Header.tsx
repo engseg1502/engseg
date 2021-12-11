@@ -40,7 +40,7 @@ const Header = () => {
           <div
             className={styles.logo}
             title="Eng. Seg. - Acessoria e Treinamentos"
-            onClick={() => handleClickItemMenu("quemSomos")}
+            onClick={() => handleClickItemMenu("banner")}
           >
             <Image src="/images/logo.png" alt="logo" width={125} height={88} />
           </div>
