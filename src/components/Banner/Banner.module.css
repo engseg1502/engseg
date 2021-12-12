@@ -37,8 +37,32 @@
   margin: 0;
 }
 
+.imageMobile {
+  display: none;
+}
+
 @media (max-width: 992px) {
-  .content {
+  .imageDesk {
     display: none;
+  }
+
+  .imageMobile {
+    display: contents;
+  }
+
+  .content {
+    width: 90%;
+    right: 5%;
+    transform: translateX(0%);
+  }
+
+  .title {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1rem;
   }
 }

@@ -3,7 +3,10 @@ import styles from "./Banner.module.css";
 
 interface BannerProps {
   img: {
-    src: string;
+    src: {
+      desktop: string;
+      mobile: string;
+    };
     alt: string;
   };
   content: {
@@ -15,7 +18,13 @@ interface BannerProps {
 const Banner = ({ img, content }: BannerProps) => {
   return (
     <div className={styles.banner}>
-      <Image src={img.src} alt={img.alt} height={345} width={1280} />
+      <div className={styles.imageDesk}>
+        <Image src={img.src.desktop} alt={img.alt} height={345} width={1280} />
+      </div>
+
+      <div className={styles.imageMobile}>
+        <Image src={img.src.mobile} alt={img.alt} height={600} width={992} />
+      </div>
 
       <div className={styles.content}>
         <span className={styles.title}>{content.title}</span>

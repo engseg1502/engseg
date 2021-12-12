@@ -37,7 +37,10 @@ const Banners = () => {
       <div className={styles.carouselItem}>
         <Banner
           img={{
-            src: "/images/banner/nrs.jpg",
+            src: {
+              desktop: "/images/banner/nrs.jpg",
+              mobile: "/images/banner/nrs-mobile.jpg",
+            },
             alt: "Homem descendo em um buraco",
           }}
           content={{
@@ -51,7 +54,10 @@ const Banners = () => {
       <div className={styles.carouselItem}>
         <Banner
           img={{
-            src: "/images/banner/brigada.jpg",
+            src: {
+              desktop: "/images/banner/brigada.jpg",
+              mobile: "/images/banner/brigada-mobile.jpg",
+            },
             alt: "Mulher apagando fogo",
           }}
           content={{
@@ -65,7 +71,10 @@ const Banners = () => {
       <div className={styles.carouselItem}>
         <Banner
           img={{
-            src: "/images/banner/treinamentos.jpg",
+            src: {
+              desktop: "/images/banner/treinamentos.jpg",
+              mobile: "/images/banner/treinamentos-mobile.jpg",
+            },
             alt: "Professor dando aula",
           }}
           content={{
