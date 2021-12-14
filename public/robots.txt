@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.engseg.art.br/
+
+# Sitemaps
+Sitemap: https://www.engseg.art.br/sitemap.xml
