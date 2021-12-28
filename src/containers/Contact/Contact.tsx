@@ -12,11 +12,20 @@ const Contact = () => {
 
             <a
               className={styles.text}
+              href={CONTACTS.telefone}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Telefone: (41) 9 9606-7454
+            </a>
+
+            <a
+              className={styles.text}
               href={CONTACTS.whatsapp}
               target="_blank"
               rel="noreferrer"
             >
-              Telefone: (41) 9 9695-4434
+              Whatsapp: (41) 9 9695-4434
             </a>
 
             <a className={styles.text} href={CONTACTS.mail}>
