@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react";
-
-import type { NextPage } from "next";
-import { useRouter } from "next/router";
+import type { NextPage, GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -11,35 +8,11 @@ import { titleToSlug } from "helpers";
 
 import styles from "./Treinamentos.module.css";
 
-const Training: NextPage = () => {
-  const router = useRouter();
+export interface Props {
+  training: TrainingInterface;
+}
 
-  const [training, setTraining] = useState<TrainingInterface | undefined>(
-    undefined
-  );
-
-  const slugTraining = router.query.slug?.[0];
-
-  useEffect(() => {
-    const goToHome = () => {
-      router.push("/");
-    };
-
-    if (!slugTraining) goToHome();
-
-    const getTraining = TRAININGS.find(
-      (training) => titleToSlug(training.title) === slugTraining
-    );
-
-    if (!getTraining) goToHome();
-
-    setTraining(getTraining);
-  }, [router, slugTraining]);
-
-  if (!training) {
-    return <div>Carregando...</div>;
-  }
-
+const Training: NextPage<Props> = ({ training }) => {
   return (
     <>
       <Head>
@@ -48,7 +21,7 @@ const Training: NextPage = () => {
         <meta property="og:description" content={training.seo.description} />
         <meta
           property="og:url"
-          content={`https://www.exclusividros.com.br/treinamentos/${slugTraining}`}
+          content={`https://www.exclusividros.com.br/treinamentos/${training.slug}`}
         />
         <meta name="keywords" content={training.seo.keywords.join(", ")}></meta>
       </Head>
@@ -82,3 +55,30 @@ const Training: NextPage = () => {
 };
 
 export default Training;
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = TRAININGS.map((training) => ({
+    params: {
+      slug: [titleToSlug(training.title)],
+    },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const slug = params?.slug?.[0];
+
+  const training = TRAININGS.find(
+    (training) => titleToSlug(training.title) === slug
+  );
+
+  return {
+    props: {
+      training,
+    },
+  };
+};
