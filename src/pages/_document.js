@@ -86,22 +86,6 @@ class MyDocument extends Document {
             content="/favicon/ms-icon-144x144.png"
           />
           <meta name="theme-color" content="#ffffff" />
-
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-MJT5DX6MXZ"
-          ></script>
-
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-MJT5DX6MXZ');
-              `,
-            }}
-          />
         </Head>
 
         <body>
