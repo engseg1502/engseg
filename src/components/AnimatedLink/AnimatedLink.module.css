@@ -17,13 +17,12 @@
   font-weight: bold;
 }
 
+.button[data-size="small"] {
+  height: 3rem;
+  font-size: 1rem;
+}
+
 .button:hover {
   box-shadow: 0 3px #72a93c;
   transform: translateY(4px);
-}
-
-@media (max-width: 992px) {
-  .button {
-    display: none;
-  }
 }

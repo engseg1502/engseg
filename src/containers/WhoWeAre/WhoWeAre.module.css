@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 992px) {
+  .section a {
+    display: none;
+  }
+
   .woweare {
     padding: 2rem 0;
   }

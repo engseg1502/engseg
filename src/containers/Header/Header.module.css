@@ -72,7 +72,7 @@
   .hamburguer span::before,
   .hamburguer span::after {
     width: 100%;
-    height: 3px;
+    height: 4px;
     background-color: black;
     position: relative;
   }

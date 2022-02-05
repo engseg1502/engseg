@@ -2,9 +2,10 @@ import type { NextPage, GetStaticPaths, GetStaticProps } from "next";
 import Head from "next/head";
 import Image from "next/image";
 
-import { TRAININGS } from "data";
+import { CONTACTS, TRAININGS } from "data";
 import { TrainingInterface } from "interfaces";
 import { titleToSlug } from "helpers";
+import { AnimatedLink } from "components";
 
 import styles from "./Treinamentos.module.css";
 
@@ -45,6 +46,12 @@ const Training: NextPage<Props> = ({ training }) => {
               <p
                 className={styles.text}
                 dangerouslySetInnerHTML={{ __html: training.text }}
+              />
+
+              <AnimatedLink
+                title="Tenho interesse"
+                to={`${CONTACTS.whatsapp} sobre o Treinamento ${training.title}`}
+                size="small"
               />
             </div>
           </article>
