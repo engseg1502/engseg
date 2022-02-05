@@ -7,3 +7,4 @@ Host: https://engseg.art.br/
 
 # Sitemaps
 Sitemap: https://engseg.art.br/sitemap.xml
+Sitemap: https://engseg.art.br/sitemap-0.xml
