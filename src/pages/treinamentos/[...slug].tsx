@@ -78,7 +78,10 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   return {
     props: {
-      training,
+      training: {
+        ...training,
+        slug,
+      },
     },
   };
 };
