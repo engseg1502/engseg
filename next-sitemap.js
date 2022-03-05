@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: "https://engseg.art.br/",
+  siteUrl: "https://www.engsegengenharia.com.br/",
   generateRobotsTxt: true,
 };

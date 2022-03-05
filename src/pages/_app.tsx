@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Eng.Seg - Assessoria e Treinamentos</title>
-        <link rel="canonical" href="https://engseg.art.br/" />
+        <link rel="canonical" href="https://www.engsegengenharia.com.br/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Gabriel Oczust" />
@@ -39,9 +39,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="https://engseg.art.br/og_image.jpg"
+          content="https://www.engsegengenharia.com.br/og_image.jpg"
         ></meta>
-        <meta property="og:url" content="https://engseg.art.br/" />
+        <meta property="og:url" content="https://www.engsegengenharia.com.br/" />
       </Head>
 
       <Header />

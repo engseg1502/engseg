@@ -3,8 +3,8 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://engseg.art.br/
+Host: https://www.engsegengenharia.com.br/
 
 # Sitemaps
-Sitemap: https://engseg.art.br/sitemap.xml
-Sitemap: https://engseg.art.br/sitemap-0.xml
+Sitemap: https://www.engsegengenharia.com.br/sitemap.xml
+Sitemap: https://www.engsegengenharia.com.br/sitemap-0.xml
