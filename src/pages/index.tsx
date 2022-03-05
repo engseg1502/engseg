@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-MJT5DX6MXZ"
+        src="https://www.googletagmanager.com/gtag/js?id=UA-215294634-1"
         strategy="afterInteractive"
       />
 
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-MJT5DX6MXZ');
+          gtag('config', 'UA-215294634-1');
         `}
       </Script>
 
